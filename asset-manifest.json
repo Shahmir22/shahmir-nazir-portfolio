@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/shahmir-nazir-portfolio/static/js/main.11b9d78a.chunk.js",
+    "main.js.map": "/shahmir-nazir-portfolio/static/js/main.11b9d78a.chunk.js.map",
+    "runtime-main.js": "/shahmir-nazir-portfolio/static/js/runtime-main.ce14aed1.js",
+    "runtime-main.js.map": "/shahmir-nazir-portfolio/static/js/runtime-main.ce14aed1.js.map",
+    "static/js/2.90d02436.chunk.js": "/shahmir-nazir-portfolio/static/js/2.90d02436.chunk.js",
+    "static/js/2.90d02436.chunk.js.map": "/shahmir-nazir-portfolio/static/js/2.90d02436.chunk.js.map",
+    "index.html": "/shahmir-nazir-portfolio/index.html",
+    "static/js/2.90d02436.chunk.js.LICENSE.txt": "/shahmir-nazir-portfolio/static/js/2.90d02436.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ce14aed1.js",
+    "static/js/2.90d02436.chunk.js",
+    "static/js/main.11b9d78a.chunk.js"
+  ]
+}

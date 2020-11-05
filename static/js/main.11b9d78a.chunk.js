@@ -1,0 +1,2 @@
+(this["webpackJsonpshahmir-nazir-portfolio"]=this["webpackJsonpshahmir-nazir-portfolio"]||[]).push([[0],{9:function(r,t,n){"use strict";n.r(t);var e=n(0),o=(n(1),n(3));var i=function(){return Object(e.jsx)("p",{children:"Hello World!"})};var s=function(){return Object(e.jsx)(i,{})};n.n(o).a.render(Object(e.jsx)(s,{}),document.getElementById("root"))}},[[9,1,2]]]);
+//# sourceMappingURL=main.11b9d78a.chunk.js.map
