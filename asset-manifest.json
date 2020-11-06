@@ -1,17 +1,33 @@
 {
   "files": {
-    "main.js": "/shahmir-nazir-portfolio/static/js/main.11b9d78a.chunk.js",
-    "main.js.map": "/shahmir-nazir-portfolio/static/js/main.11b9d78a.chunk.js.map",
+    "main.css": "/shahmir-nazir-portfolio/static/css/main.fe120fe4.chunk.css",
+    "main.js": "/shahmir-nazir-portfolio/static/js/main.70b868e0.chunk.js",
+    "main.js.map": "/shahmir-nazir-portfolio/static/js/main.70b868e0.chunk.js.map",
     "runtime-main.js": "/shahmir-nazir-portfolio/static/js/runtime-main.ce14aed1.js",
     "runtime-main.js.map": "/shahmir-nazir-portfolio/static/js/runtime-main.ce14aed1.js.map",
-    "static/js/2.90d02436.chunk.js": "/shahmir-nazir-portfolio/static/js/2.90d02436.chunk.js",
-    "static/js/2.90d02436.chunk.js.map": "/shahmir-nazir-portfolio/static/js/2.90d02436.chunk.js.map",
+    "static/css/2.20aa2d7b.chunk.css": "/shahmir-nazir-portfolio/static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.6fd0fc19.chunk.js": "/shahmir-nazir-portfolio/static/js/2.6fd0fc19.chunk.js",
+    "static/js/2.6fd0fc19.chunk.js.map": "/shahmir-nazir-portfolio/static/js/2.6fd0fc19.chunk.js.map",
     "index.html": "/shahmir-nazir-portfolio/index.html",
-    "static/js/2.90d02436.chunk.js.LICENSE.txt": "/shahmir-nazir-portfolio/static/js/2.90d02436.chunk.js.LICENSE.txt"
+    "static/css/2.20aa2d7b.chunk.css.map": "/shahmir-nazir-portfolio/static/css/2.20aa2d7b.chunk.css.map",
+    "static/css/main.fe120fe4.chunk.css.map": "/shahmir-nazir-portfolio/static/css/main.fe120fe4.chunk.css.map",
+    "static/js/2.6fd0fc19.chunk.js.LICENSE.txt": "/shahmir-nazir-portfolio/static/js/2.6fd0fc19.chunk.js.LICENSE.txt",
+    "static/media/CSS3-logo.1cc8d604.png": "/shahmir-nazir-portfolio/static/media/CSS3-logo.1cc8d604.png",
+    "static/media/React.js-logo.c2861c4d.png": "/shahmir-nazir-portfolio/static/media/React.js-logo.c2861c4d.png",
+    "static/media/bootstrap-logo.f347ec0c.png": "/shahmir-nazir-portfolio/static/media/bootstrap-logo.f347ec0c.png",
+    "static/media/email-logo.b46bda71.png": "/shahmir-nazir-portfolio/static/media/email-logo.b46bda71.png",
+    "static/media/github-logo.a83c2455.png": "/shahmir-nazir-portfolio/static/media/github-logo.a83c2455.png",
+    "static/media/javascript-logo.8abcd9ed.png": "/shahmir-nazir-portfolio/static/media/javascript-logo.8abcd9ed.png",
+    "static/media/linkedin-logo.0274bba9.png": "/shahmir-nazir-portfolio/static/media/linkedin-logo.0274bba9.png",
+    "static/media/mysql-logo.167c8855.png": "/shahmir-nazir-portfolio/static/media/mysql-logo.167c8855.png",
+    "static/media/node-js-logo.65e4a4fa.png": "/shahmir-nazir-portfolio/static/media/node-js-logo.65e4a4fa.png",
+    "static/media/selfie.52f56d3e.jpeg": "/shahmir-nazir-portfolio/static/media/selfie.52f56d3e.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.ce14aed1.js",
-    "static/js/2.90d02436.chunk.js",
-    "static/js/main.11b9d78a.chunk.js"
+    "static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.6fd0fc19.chunk.js",
+    "static/css/main.fe120fe4.chunk.css",
+    "static/js/main.70b868e0.chunk.js"
   ]
 }
