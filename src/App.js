@@ -1,14 +1,14 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from "./Components/Components/Navbar";
+import Navbar from "./components/Components/Navbar";
 import { Container } from 'reactstrap';
-import About from './Components/Pages/AboutMe';
-import Projects from './Components/Pages/Projects';
-import Contact from './Components/Pages/Contact';
+import About from './components/Pages/AboutMe';
+import Projects from './components/Pages/Projects';
+import Contact from './components/Pages/Contact';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faEnvelope, faCodeBranch } from '@fortawesome/free-solid-svg-icons'
-// import Footer from "./components/Footer";
+// /import Footer from "./components/Footer";
 
 library.add(faEnvelope, faCodeBranch);
 

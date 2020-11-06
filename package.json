@@ -4,12 +4,20 @@
   "private": true,
   "homepage": "http://shahmir22.github.io/shahmir-nazir-portfolio",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.12",
     "@testing-library/jest-dom": "^5.11.5",
     "@testing-library/react": "^11.1.1",
     "@testing-library/user-event": "^12.2.0",
+    "benchmark": "^2.1.4",
+    "bootstrap": "^4.5.3",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-responsive": "^8.1.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.0",
+    "reactstrap": "^8.7.1",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
