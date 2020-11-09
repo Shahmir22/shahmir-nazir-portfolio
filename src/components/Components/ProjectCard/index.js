@@ -1,7 +1,6 @@
 import React from 'react';
 import {
-    Card, Button, CardHeader, CardFooter, CardBody,
-    CardTitle, CardText, Row, Col
+    Card, Button, CardHeader, CardFooter, CardBody,CardText, Row, Col
 } from 'reactstrap';
 import MediaQuery, { useMediaQuery } from 'react-responsive';
 
@@ -27,8 +26,6 @@ const ProjectCard = (props) => {
                         <Col>
                             <CardBody>
                                 <CardText className="mt-3"><b>Summary:</b> {props.summary}</CardText>
-                                <br />
-                                <CardText><b>Tech Used:</b> {props.techUsed}</CardText>
                             </CardBody>
                         </Col>
                     </Row>
@@ -48,9 +45,6 @@ const ProjectCard = (props) => {
                         <br />
                         <Row>
                             <CardText className="m-3"><b>Summary:</b> {props.summary}</CardText>
-                        </Row>
-                        <Row>
-                            <CardText className="m-3"><b>Tech Used:</b> {props.techUsed}</CardText>
                         </Row>
                     </CardBody>
 

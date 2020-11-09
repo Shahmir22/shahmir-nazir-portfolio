@@ -1,34 +1,31 @@
-// import safeFlightGif from '../Gifs/safe-flight-example.gif';
-// import mernScraperGif from '../Gifs/react-mongo-scraper-example.gif';
-// import freelancersGif from '../Gifs/freelancers-example.gif';
+import employeeGirGif from '../Gifs/employee-example.gif';
+import budgetTrackerGif from '../Gifs/budget-tracker.gif';
+import fitnessTrackerGif from '../Gifs/fitness-Tracker.gif';
 
 const projects = [
     {
         "id": 1,
-        "projectName": "Safe Flight",
-        // "exampleGif": safeFlightGif,
-        "summary": "Safe Flight is a web application designed to help the user plan out a flight itinerary with airlines that are safe, secure, and not prone to malfuntion.",
-        "techUsed": "React, MongoDB, Express, Node.js, Reactstrap, React-Router-Dom, Mongoose, Passport.js, Moment.js, Axios, Bcrypt, Bootstrap, Node-sass, and this project is deployed with Heroku.",
-        "githubLink": "https://github.com/JYoung32/safe-flight",
-        "deployedLink": "https://floating-everglades-15450.herokuapp.com/"
+        "projectName": "Employee Directory ",
+        "exampleGif": employeeGirGif,
+        "summary": "For this project, I have created an employee directory with React. I have broken down the application's UI into components, managed component state, and it responds to user events. The user can search employees by last name, or sort the table of employees by first name, last name, or birth date.",
+        "githubLink": "https://github.com/Shahmir22/employee-directory-react",
+        "deployedLink": "https://shahmir22.github.io/employee-directory-react/"
     },
     {
         "id": 2,
-        "projectName": "MERN Scraper",
-        // "exampleGif": mernScraperGif,
-        "summary": "MERN Scraper is a news article web application that allows the user to view news articles, save an article, it can also allow the user to post and delete notes on a save article.",
-        "techUsed": "Tech Used: React, MongoDB, Express, Node.js, Reactstrap, Bootstrap, Mongoose, Axios, Cheerio, React-Router-Dom, and this project is deployed to Heroku.",
-        "githubLink": "https://github.com/JYoung32/react-mongo-scraper",
-        "deployedLink": "https://thawing-lowlands-26119.herokuapp.com/"
+        "projectName": "Budget Tracker",
+        "exampleGif": budgetTrackerGif,
+        "summary": "In this application, I have added functionality to an existing Budget Tracker application to allow for offline access and functionality. The user is be able to add expenses and deposits to their budget with or without an internet connection. When entering transactions offline, they are saved and populate the total when brought back online.",
+        "githubLink": "https://github.com/Shahmir22/budget-tracker",
+        "deployedLink": " https://budget-tracker-shah.herokuapp.com/"
     },
     {
         "id": 3,
-        "projectName": "Freelancers",
-        // "exampleGif": freelancersGif,
-        "summary": "Freelancers is a web application designed to assist the user with connect them to a local expert to get the job done. In addition, a professional can come visit the app and leave their information to later be called upon to do a job.",
-        "techUsed": "Tech Used: Express, Express-Handlebars, HTML, CSS, Javascript, MySQL, Sequelize, Node,js, Animate.CSS and this project is deployed to Heroku.",
-        "githubLink": "https://github.com/JYoung32/freelancers",
-        "deployedLink": "https://obscure-savannah-83730.herokuapp.com/"
+        "projectName": "Workout",
+        "exampleGif": fitnessTrackerGif,
+        "summary": "In this application, I have created a workout tracker. I was already provided with the front end code in the Public folder. In order to complete the backend code, I created a Mongo database with a Mongoose schema and handle routes with Express.",
+        "githubLink": "https://github.com/Shahmir22/Workout-Tracker",
+        "deployedLink": "https://workout-tacker2.herokuapp.com/"
     }
 ];
 
