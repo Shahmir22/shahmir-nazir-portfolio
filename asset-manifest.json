@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/shahmir-nazir-portfolio/static/css/main.fe120fe4.chunk.css",
-    "main.js": "/shahmir-nazir-portfolio/static/js/main.70b868e0.chunk.js",
-    "main.js.map": "/shahmir-nazir-portfolio/static/js/main.70b868e0.chunk.js.map",
+    "main.js": "/shahmir-nazir-portfolio/static/js/main.1cb5ab82.chunk.js",
+    "main.js.map": "/shahmir-nazir-portfolio/static/js/main.1cb5ab82.chunk.js.map",
     "runtime-main.js": "/shahmir-nazir-portfolio/static/js/runtime-main.ce14aed1.js",
     "runtime-main.js.map": "/shahmir-nazir-portfolio/static/js/runtime-main.ce14aed1.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/shahmir-nazir-portfolio/static/css/2.20aa2d7b.chunk.css",
@@ -15,7 +15,10 @@
     "static/media/CSS3-logo.1cc8d604.png": "/shahmir-nazir-portfolio/static/media/CSS3-logo.1cc8d604.png",
     "static/media/React.js-logo.c2861c4d.png": "/shahmir-nazir-portfolio/static/media/React.js-logo.c2861c4d.png",
     "static/media/bootstrap-logo.f347ec0c.png": "/shahmir-nazir-portfolio/static/media/bootstrap-logo.f347ec0c.png",
+    "static/media/budget-tracker.b7a87271.gif": "/shahmir-nazir-portfolio/static/media/budget-tracker.b7a87271.gif",
     "static/media/email-logo.b46bda71.png": "/shahmir-nazir-portfolio/static/media/email-logo.b46bda71.png",
+    "static/media/employee-example.e67c3f24.gif": "/shahmir-nazir-portfolio/static/media/employee-example.e67c3f24.gif",
+    "static/media/fitness-Tracker.f70f01a0.gif": "/shahmir-nazir-portfolio/static/media/fitness-Tracker.f70f01a0.gif",
     "static/media/github-logo.a83c2455.png": "/shahmir-nazir-portfolio/static/media/github-logo.a83c2455.png",
     "static/media/javascript-logo.8abcd9ed.png": "/shahmir-nazir-portfolio/static/media/javascript-logo.8abcd9ed.png",
     "static/media/linkedin-logo.0274bba9.png": "/shahmir-nazir-portfolio/static/media/linkedin-logo.0274bba9.png",
@@ -28,6 +31,6 @@
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.6fd0fc19.chunk.js",
     "static/css/main.fe120fe4.chunk.css",
-    "static/js/main.70b868e0.chunk.js"
+    "static/js/main.1cb5ab82.chunk.js"
   ]
 }
