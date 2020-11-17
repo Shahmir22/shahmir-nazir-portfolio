@@ -7,7 +7,7 @@ import emailIcon from "../../Pictures/email-logo.png";
 import githubIcon from "../../Pictures/github-logo.png";
 import linkedInIcon from "../../Pictures/linkedin-logo.png";
 import headshot from "../../Pictures/selfie.jpeg";
-// import resume from "../../Pictures/Web-Dev-Resume.pdf"
+import resume from "../../Resume/ShahmirResumeUpdated.pdf"
 import "./style.css";
 import MediaQuery, { useMediaQuery } from 'react-responsive';
 
@@ -29,16 +29,16 @@ const Contact = (props) => {
                 <Row className="d-flex justify-content-center">
                     <Card className="w-50 mt-3">
                         <CardHeader tag="h3" >
-                            <Row>
-                                <Col className="ml-4">
-                                    Shahmir Nazir
-                                </Col>
-                                {/* <Button color="secondary" className="mr-5" href={resume} target="_blank">Resume</Button> */}
-                            </Row>
+                            <div class="row">
+                                <div class="ml-4 col">Shahmir Nazir</div>
+                                <a href={resume} target="_blank" class="mr-5 btn btn-secondary">Resume</a>
+                            </div>
+                            {/* <Button color="secondary" className="mr-5" href={resume} target="_blank">Resume</Button> */}
+
                         </CardHeader>
                         <CardBody>
                             <Row>
-                                {/* <Col xs="5"><img className="headshot shadow bg-white rounded mt-3" src={headshot} alt="Headshot" /></Col> */}
+                                {<Col xs="5"><img className="headshot shadow bg-white rounded mt-3" src={headshot} alt="Headshot" /></Col>}
                                 <Col className="text-Left m-3">
                                     <CardTitle className="lead text-center font-weight-bold">Software Engineer</CardTitle>
                                     <hr className="m-3" />
@@ -51,35 +51,37 @@ const Contact = (props) => {
                     </Card>
                 </Row>
             </>}
-            {isTabletOrPhone && <>
-                <h3 className="m-3 text-center">Contact Information</h3>
-                <hr className="my-4" />
-                <Row className="d-flex justify-content-center">
-                    <Card className="m-3">
-                        <CardHeader tag="h3" >
-                            <Row className="justify-content-center">
-                                Shahmir Nazir
+            {
+                isTabletOrPhone && <>
+                    <h3 className="m-3 text-center">Contact Information</h3>
+                    <hr className="my-4" />
+                    <Row className="d-flex justify-content-center">
+                        <Card className="m-3">
+                            <CardHeader tag="h3" >
+                                <Row className="justify-content-center">
+                                    Shahmir Nazir
                             </Row>
-                        </CardHeader>
-                        <CardBody>
-                            {/* <Row className="justify-content-center"><img className="headshot shadow bg-white rounded mt-3" src={headshot} alt="Headshot" /></Row> */}
-                            <Row className="justify-content-center mt-3">
-                                <CardTitle className="lead font-weight-bold">Software Engineer</CardTitle>
-                            </Row>
-                            <hr />
-                            <Row>
-                                <Col className="text-center">
-                                    {/* <Button color="secondary" className="mb-3" href={resume} target="_blank">Resume</Button> */}
-                                    <NavLink href="mailto:Joseph.Young.Dev@gmail.com"><img className="logo" src={emailIcon} alt="Logo" /> : Shahmir Nazir</NavLink>
-                                    <NavLink href="https://www.linkedin.com/in/joe-young-8a499a18a/"><img className="logo" src={linkedInIcon} alt="Logo" /> : Shahmir Nazir</NavLink>
-                                    <NavLink href="https://github.com/JYoung32"><img className="logo" src={githubIcon} alt="Logo" /> : JYoung32</NavLink>
-                                </Col>
-                            </Row>
-                        </CardBody>
-                    </Card>
-                </Row>
-            </>}
-        </div>
+                            </CardHeader>
+                            <CardBody>
+                                {/* <Row className="justify-content-center"><img className="headshot shadow bg-white rounded mt-3" src={headshot} alt="Headshot" /></Row> */}
+                                <Row className="justify-content-center mt-3">
+                                    <CardTitle className="lead font-weight-bold">Software Engineer</CardTitle>
+                                </Row>
+                                <hr />
+                                <Row>
+                                    <Col className="text-center">
+                                        {/* <Button color="secondary" className="mb-3" href={resume} target="_blank">Resume</Button> */}
+                                        <NavLink href="mailto:Joseph.Young.Dev@gmail.com"><img className="logo" src={emailIcon} alt="Logo" /> : Shahmir Nazir</NavLink>
+                                        <NavLink href="https://www.linkedin.com/in/joe-young-8a499a18a/"><img className="logo" src={linkedInIcon} alt="Logo" /> : Shahmir Nazir</NavLink>
+                                        <NavLink href="https://github.com/JYoung32"><img className="logo" src={githubIcon} alt="Logo" /> : JYoung32</NavLink>
+                                    </Col>
+                                </Row>
+                            </CardBody>
+                        </Card>
+                    </Row>
+                </>
+            }
+        </div >
     );
 }
 

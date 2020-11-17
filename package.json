@@ -2,7 +2,7 @@
   "name": "shahmir-nazir-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://shahmir22.github.io/shahmir-nazir-portfolio",
+  "homepage": "http://shahmir22.github.io/shahmir-nazir-portfolio/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
