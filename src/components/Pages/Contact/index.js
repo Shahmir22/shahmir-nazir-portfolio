@@ -71,9 +71,9 @@ const Contact = (props) => {
                                 <Row>
                                     <Col className="text-center">
                                         {/* <Button color="secondary" className="mb-3" href={resume} target="_blank">Resume</Button> */}
-                                        <NavLink href="mailto:Joseph.Young.Dev@gmail.com"><img className="logo" src={emailIcon} alt="Logo" /> : Shahmir Nazir</NavLink>
-                                        <NavLink href="https://www.linkedin.com/in/joe-young-8a499a18a/"><img className="logo" src={linkedInIcon} alt="Logo" /> : Shahmir Nazir</NavLink>
-                                        <NavLink href="https://github.com/JYoung32"><img className="logo" src={githubIcon} alt="Logo" /> : JYoung32</NavLink>
+                                        <NavLink href="mailto:shahmir.nazir.Dev@gmail.com"><img className="logo" src={emailIcon} alt="Logo" /> : Shahmir Nazir</NavLink>
+                                        <NavLink href="https://www.linkedin.com/in/shahmir-nazir/" target="_blank"><img className="logo" src={linkedInIcon} alt="Logo" /> : Shahmir Nazir</NavLink>
+                                        <NavLink href="https://github.com/shahmir22"><img className="logo" src={githubIcon} alt="Logo" /> : shahmir22</NavLink>
                                     </Col>
                                 </Row>
                             </CardBody>
